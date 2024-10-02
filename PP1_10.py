@@ -1,24 +1,22 @@
 import math
 import numpy as np
 def q1(): 
-  x = float(input("Enter a integer: "))
+  x = float(input("Input a number: "))
   print(math.sqrt(x))
 
 
 def q2(): 
   y = int(input("Input a number: "))
-  yY = np.float64(y)
-  print(math.isqrt(yY))
+  print(math.isqrt(y))
 
 
 def q3(): 
-  z = int(input("Input a number: "))
-  zZ = np.float64(z)
-  print(math.trunc(zZ))
+  z = float(input("Input a number: "))
+  print(math.floor(z))
 
 
 def q4(): 
-  print(math.ceil(float("Input a number: ")))
+  print(math.ceil(float(input("Input a number: "))))
 
 
 def q5(): 
@@ -30,9 +28,10 @@ def q5():
 
 #Do not alter the following code
 #Comment out the following code when running your tests
-
+'''
 q1()
 q2()
 q3()
 q4()
 q5()
+'''
